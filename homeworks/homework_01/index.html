@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/typescript/5.3.3/typescript.min.js"></script>
+	<!-- Підсвітка (Highlight.js) -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/atom-one-dark.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/javascript.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/typescript.min.js"></script>
+	<script src="./javascript/script.js" async></script>
+	<!-- <script src="./javascript/test.js" async></script> -->
+	<link rel="stylesheet" href="css/style.css">
+	<title>Домашня робота №1</title>
+</head>
+
+<body>
+	<div class="wrapper">
+		<h1>Домашня робота №1</h1>
+		<div class="select-cnt">
+			<select class="select" id="taskSelect">
+				<option value="1">Задача 1</option>
+				<option value="2">Задача 2</option>
+				<option value="3">Задача 3</option>
+				<option value="4">Задача 4</option>
+				<option value="5">Задача 5</option>
+				<option value="6">Задача 6</option>
+			</select>
+			<button type="button" id="runBtn">Запустити</button>
+		</div>
+
+		<div class="result">
+			<h2>Результат:</h2>
+			<pre id="output"></pre>
+		</div>
+
+		<div class="code-cnt">
+			<div>
+				<h2>TypeScript</h2>
+				<pre><code id="tsCode" class="language-typescript"></code></pre>
+			</div>
+			<div>
+				<h2>JavaScript</h2>
+				<pre><code id="jsCode" class="language-javascript"></code></pre>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
